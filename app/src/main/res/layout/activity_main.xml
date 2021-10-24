@@ -18,10 +18,11 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Red"
         android:onClick="onClckRedBtn"
+        android:text="Red"
         tools:layout_editor_absoluteX="130dp"
         tools:layout_editor_absoluteY="213dp" />
 
